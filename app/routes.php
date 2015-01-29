@@ -16,7 +16,7 @@ Route::get('/', function()
 	return View::make('home');
 });
 
-Route::get('/upload', function()
+Route::post('/upload', function()
 {
 	$file = Input::file('file');
     $extension = File::extension($file->getClientOriginalName());
