@@ -13,6 +13,15 @@
 
 Route::get('/', function()
 {
-	// return View::make('hello');
-	return "Hi there!";
+	return View::make('home');
+});
+
+Route::get('/upload', function()
+{
+	$file = Input::file('file');
+    $extension = File::extension($file->getClientOriginalName());
+    $directory = 'uploads';
+    $filename =  $file->getClientOriginalName();
+
+    $upload_success = Input::file('file')->move($directory, $filename);
 });

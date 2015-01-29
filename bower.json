@@ -1,0 +1,6 @@
+{
+  "name": "photo-up",
+  "dependencies": {
+    "dropzone": "~4.0.0"
+  }
+}
