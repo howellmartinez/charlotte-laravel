@@ -3,6 +3,11 @@
 		<title>SJCS Batch Reunion Photo Upload</title>
 		{{ HTML::style('bower_resources/dropzone/dist/min/dropzone.min.css') }}	
 		{{ HTML::script('bower_resources/dropzone/dist/min/dropzone.min.js') }}
+		<script type="text/javascript">
+			$(document).ready(function () {
+				
+			});
+		</script>
 	</head>
 	<body>
 		<h1>Photo Upload</h1>
@@ -10,7 +15,8 @@
 		{{ Form::open(array(
 			'url' => '/upload',
 			'files' => true,
-			'class' => 'dropzone dz-clickable'
+			'class' => 'dropzone dz-clickable',
+			'id'	=> 'dz'
 		)) }}
 
    		<div class="dz-message">
