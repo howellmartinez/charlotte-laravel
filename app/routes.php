@@ -23,5 +23,5 @@ Route::post('/upload', function()
     $directory = 'uploads';
     $filename =  $file->getClientOriginalName();
 
-    $upload_success = Input::file('file')->move($directory);
+    return $upload_success = $file->move($directory, $file->getClientOriginalName());
 });
