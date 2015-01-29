@@ -1,8 +1,8 @@
 <html>
 	<head>
 		<title>SJCS Batch Reunion Photo Upload</title>
-		{{ HTML::style('bower_components/dropzone/dist/min/dropzone.min.css') }}	
-		{{ HTML::script('bower_components/dropzone/dist/min/dropzone.min.js') }}
+		{{ HTML::style('bower_resources/dropzone/dist/min/dropzone.min.css') }}	
+		{{ HTML::script('bower_resources/dropzone/dist/min/dropzone.min.js') }}
 	</head>
 	<body>
 		<h1>Photo Upload</h1>
