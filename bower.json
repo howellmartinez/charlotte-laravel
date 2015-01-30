@@ -1,6 +1,8 @@
 {
-  "name": "photo-up",
+  "name": "charlotte-laravel",
   "dependencies": {
-    "dropzone": "~4.0.0"
+    "dropzone": "~4.0.0",
+    "bootstrap": "~3.3.2",
+    "jquery": "~2.1.3"
   }
 }
