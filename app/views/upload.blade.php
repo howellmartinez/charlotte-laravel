@@ -3,8 +3,8 @@
 		<title>SJCS Batch Reunion Photo Upload</title>
 
 
-		{{ HTML::style('http://cdnjs.cloudflare.com/ajax/libs/dropzone/3.8.4/css/dropzone.css') }}
-		{{-- HTML::style('bower_resources/dropzone/dist/min/dropzone.min.css') --}}
+		{{-- HTML::style('http://cdnjs.cloudflare.com/ajax/libs/dropzone/3.8.4/css/dropzone.css') --}}
+		{{ HTML::style('bower_resources/dropzone/dist/min/dropzone.min.css') }}
 		{{ HTML::style('bower_resources/bootstrap/dist/css/bootstrap.min.css') }}
 
 		<script type="text/javascript">

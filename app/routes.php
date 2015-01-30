@@ -33,7 +33,6 @@ Route::post('/upload', function()
     return $upload_success = $file->move($directory, $file->getClientOriginalName());
 });
 
-
 Route::get('/openid', function() {
 
     // get data from input
